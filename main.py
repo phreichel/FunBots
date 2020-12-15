@@ -9,6 +9,9 @@ def input_line():
     return text
 
 def analyse(text):
+    tokens = text.split()
+    for token in tokens:
+        print(token)
     pass
 
 welcome()
